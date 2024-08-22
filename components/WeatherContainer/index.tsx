@@ -6,7 +6,9 @@ import { FaArrowsDownToLine, FaDroplet, FaPerson, FaTemperatureArrowDown, FaTemp
 
 // components
 import WeatherIndicator from "../WeatherIndicator";
-import { useWeather } from "../../providers/WeatherProvider";
+
+// custom hooks
+import useWeather from "../../hooks/useWeather";
 
 const WeatherContainer = () => {
     const { weatherData } = useWeather();

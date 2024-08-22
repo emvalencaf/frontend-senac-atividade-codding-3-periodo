@@ -1,10 +1,17 @@
 "use client";
 
-import { SubmitHandler, useForm } from "react-hook-form";
+// toast
 import toast from "react-hot-toast";
+
+// hooks
+import { useState } from "react";
+import { SubmitHandler, useForm } from "react-hook-form";
+
+// custom hooks
+import useWeather from "../../hooks/useWeather";
+
+// icons
 import { FaSearchLocation, FaCity, FaMap, FaGlobeAmericas } from "react-icons/fa";
-import { useWeather } from "../../providers/WeatherProvider";
-import { useState, useEffect } from "react";
 
 export type IFormInputs = {
     city: string;
