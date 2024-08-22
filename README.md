@@ -14,7 +14,7 @@ Frontend desenvolvido com o *framework* Next.js para fins da 1ª Atividade da di
   Seu navegador não suporta a tag de vídeo.
 </video>
 
-3. Execute o comando `npm run start:dev` para executar o backend (que por padrão vai rodar na rota `5000`)
+3. Execute o comando `npm run dev` para executar o backend (que por padrão vai rodar na rota `3000`)
 
 <video width="600" controls>
   <source src="./docs/run-code-frontend.mp4" type="video/mp4">
